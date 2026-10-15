@@ -1,0 +1,37 @@
+GIF Workshop's original source is Copyright (C) 2026 yuudong123 and is
+licensed under GPL-3.0-or-later. See LICENSE.
+
+Third-party components retain their respective licenses and copyrights:
+
+PySide6 / Qt for Python and shiboken6
+Copyright The Qt Company Ltd. and contributors.
+Licensed under LGPLv3 / GPLv3 / commercial terms as applicable to individual modules.
+This package uses dynamically loaded Qt libraries. See bundled original license texts.
+https://www.qt.io/qt-for-python
+https://code.qt.io/cgit/pyside/pyside-setup.git/
+
+Pillow
+Copyright the Pillow contributors. HPND license.
+https://python-pillow.github.io/
+
+imageio-ffmpeg
+Copyright imageio contributors. BSD-2-Clause license.
+https://github.com/imageio/imageio-ffmpeg
+
+FFmpeg binary distributed by imageio-ffmpeg
+FFmpeg is a separate executable; its build configuration and license are available with
+ffmpeg -version and ffmpeg -L. This bundled build is GPLv3 or later.
+https://ffmpeg.org/legal.html
+https://ffmpeg.org/download.html
+https://github.com/imageio/imageio-ffmpeg
+
+App source and build scripts:
+https://github.com/yuudong123/gif-workshop
+
+This source repository does not redistribute the dependency binaries or the
+generated executable. Installing dependencies or building an executable obtains
+them separately. Publishing a binary build requires retaining license notices
+and providing the corresponding source required by the applicable licenses.
+
+Before redistributing this bundle publicly, review the included licenses and provide
+corresponding source for the exact FFmpeg/Qt builds where their licenses require it.
